@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background: #1a0321;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton{
+    position: relative;
+    display: inline-block;
+    padding: 20px 30px;
+    color: aliceblue;
+    background-color: #1a0321;
+    letter-spacing: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.boton:hover{
+    background: absolute;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7;
+    transition-delay: ls;
+}

@@ -1,0 +1,54 @@
+body{
+    background: #b3b0b4;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    position: center;
+}
+
+#sect{
+    float: left;
+    color: black;
+    width: 80%;
+    min-height: 500px;
+    background: rgb(77, 72, 83);
+    
+}
+
+#art{
+    float: left;
+    color: black;
+    width: 20%;
+    background: rgb(60, 69, 71);
+    min-height: 500px;
+}
+
+#opc{
+    text-align: center;
+    color: rgb(60, 69, 71);
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    position: center;
+    transition: 0.2s;
+}
+
+a:hover{
+    background: absolute;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7;
+    transition-delay: ls;
+}
+
+p{
+    color: rgb(229, 221, 221);
+    font-size: 23px;
+    position: center;
+    text-align:right ;
+}
+
